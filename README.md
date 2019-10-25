@@ -1,4 +1,4 @@
-# Real-Time-Streaming-of-Stock-Data-using-AWS-Kinesis
+# Real-Time-Streaming-of-Sales-Data-using-AWS-Kinesis
  
 The project starts with a Python program to  source stock data online, but also optimise its use of downloaded data, to avoid excessive network traffic. Users will have the possibility of searching for specific stocks, and query specified time ranges for downloading the data.
 
