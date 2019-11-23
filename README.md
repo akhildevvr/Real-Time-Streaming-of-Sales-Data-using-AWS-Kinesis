@@ -5,14 +5,14 @@ The project starts with a Python program to  source stock data online, but also 
 
 Part 1 : AWS Basics
 
-AWS IAM user and AWS configure command line utility
-S3 buckets
-Kinesis Data Stream
-Kinesis Firehose
-EC2 and security group for SuperSet
-AWS IAM User
-IAM user are like ID card equivalent of real world. They just show who you are and what you can do (Permissions). We will create a user with name first_time_aws_user with ADMIN Privilages.
+1.AWS IAM user and AWS configure command line utility
+2.S3 buckets
+3.Kinesis Data Stream
+4.Kinesis Firehose
+5.EC2 and security group for SuperSet
+6.AWS IAM User
 
+IAM user are like ID card equivalent of real world. They just show who you are and what you can do (Permissions). We will create a user with name first_time_aws_user with ADMIN Privilages.
 
 
 AWS Configure Command Line Utility
@@ -74,17 +74,18 @@ Install superset
 Lets install superset on the machine
 
 # dependencies
-  sudo apt update &&  sudo apt-get install -y build-essential libssl-dev libffi-dev python3-dev python3-pip libsasl2-dev libldap2-dev
-  sudo pip3 install pandas==0.23.4 SQLAlchemy==1.2.2 psycopg2-binary pymssql superset
+
+    sudo apt update &&  sudo apt-get install -y build-essential libssl-dev libffi-dev python3-dev python3-pip libsasl2-dev libldap2-dev
+    sudo pip3 install pandas==0.23.4 SQLAlchemy==1.2.2 psycopg2-binary pymssql superset
 
 # one time setup
-  export FLASK_APP=superset
-  flask fab create-admin  --username admin123 --password admin1234 --firstname admin --lastname admin --email admin@gma.com
-  superset db upgrade 
-  superset init
+    export FLASK_APP=superset
+    flask fab create-admin  --username admin123 --password admin1234 --firstname admin --lastname admin --email admin@gma.com
+    superset db upgrade 
+    superset init
 
 # start superset
-  superset runserver -p 8080
+    superset runserver -p 8080
 Find public IP of your machine and go to this website
 
 public-IP:8080
