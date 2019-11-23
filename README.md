@@ -5,12 +5,12 @@ The project starts with a Python program to  source stock data online, but also 
 
 Part 1 : AWS Basics
 
-1.AWS IAM user and AWS configure command line utility
-2.S3 buckets
-3.Kinesis Data Stream
-4.Kinesis Firehose
-5.EC2 and security group for SuperSet
-6.AWS IAM User
+1.AWS IAM user and AWS configure command line utility.
+2.S3 buckets.
+3.Kinesis Data Stream.
+4.Kinesis Firehose.
+5.EC2 and security group for SuperSet.
+6.AWS IAM User.
 
 IAM user are like ID card equivalent of real world. They just show who you are and what you can do (Permissions). We will create a user with name first_time_aws_user with ADMIN Privilages.
 
