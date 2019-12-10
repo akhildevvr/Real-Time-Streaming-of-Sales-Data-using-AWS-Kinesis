@@ -9,7 +9,7 @@ my_timezone = pytz.timezone('Europe/Dublin')
 client = boto3.client('s3', 'eu-west-1')
 
 # create database connetion
-POSTGRES_USERNAME = 'sahil'
+POSTGRES_USERNAME = 'akhil'
 POSTGRES_PASSWORD = 'zxcvbnm1234'
 POSTGRES_DBNAME = 'data'
 POSTGRES_HOST = 'superset.cznthudneeub.eu-west-1.rds.amazonaws.com'
